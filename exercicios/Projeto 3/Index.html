@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de contagem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+    <main>
+        <section>
+            <div>
+                <label for="in">Início:</label>
+                <input type="number" name="in" id="in"> <br>
+                <label for="fim">Fim:</label>
+                <input type="number" name="fim" id="fim"> <br>
+                <label for="pass">Passo:</label>
+                <input type="number" name="pass" id="pass"> <br>
+                <input type="button" value="Contar" onclick="contar()">
+            </div>
+            <div id="res">
+                Preparando a contagem...
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Alan de Souza</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
