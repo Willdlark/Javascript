@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(231, 231, 231);
+}
+h1{
+    padding: 30px;
+    font-size: 3em;
+    text-align: center;
+}
+header{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;}
+#itext{
+    width: 80%;
+    height: 40px;
+    font-size: 1.5em;
+    border: 1px solid black;
+    border-radius: 5px 0px 0px 5px;
+}
+.add{
+    width: 10%;
+    height: 42px;
+    border: 1px solid black;
+    border-radius: 0px 5px 5px 0px;
+    background-color: rgb(138, 255, 127);
+    cursor: pointer;
+}
+body{
+    text-align: center;
+}
+.item{
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    margin: auto auto;
+    height: 40px;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;  
+    margin-bottom: 10px;  
+}
+.icon{ 
+    width: 15%;
+}
+.tarefa{
+    width: 70%;
+}
+.del{
+    width: 15%;
+    background-color: red;
+    height: 40px;
+    cursor: pointer;
+    
+}
+.item-adicionado{
+    border: 1px solid black;
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    margin: auto auto;
+    height: 40px;
+    align-items: center;
+    border-radius: 5px; 
+    margin-bottom: 10px;   
+    background-color: rgb(166, 247, 172);
+}
+.iconadd{
+    background-color: rgb(166, 247, 172);
+    width: 15%;
+    color: rgb(0, 83, 0) ;
+}
+#icond{
+    background-color: rgb(166, 247, 172);
+}
+.tarefadd{
+    background-color: rgb(166, 247, 172);
+    width: 70%;
+    text-decoration: line-through;
+}

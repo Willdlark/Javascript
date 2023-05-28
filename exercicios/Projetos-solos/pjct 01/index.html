@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto lista de tarefas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <h1>Lista de tarefas</h1>
+    <header>
+        <input type="text" name="text" id="itext" placeholder="Digite sua tarefa aqui">
+        <button class="add" id="botao" onclick="addtaf()">Adicionar tarefa</button>
+    </header>
+    <main id="iitem">
+        <div class="item">
+            <div class="icon"><span class="material-symbols-outlined">
+                radio_button_unchecked
+                </span></div>
+            <div class="tarefa">texto</div>
+            <button class="del">Deletar tarefa</button>
+        </div>
+        <div class="item-adicionado">
+            <div class="iconadd"><span class="material-symbols-outlined" id="icond">
+                task_alt
+                </span>
+                </span></div>
+            <div class="tarefadd">texto</div>
+            <button class="del">Deletar tarefa</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
