@@ -21,13 +21,11 @@ header{
     width: 80%;
     height: 40px;
     font-size: 1.5em;
-    border: 1px solid black;
     border-radius: 5px 0px 0px 5px;
 }
 .add{
     width: 10%;
-    height: 42px;
-    border: 1px solid black;
+    height: 44px;
     border-radius: 0px 5px 5px 0px;
     background-color: rgb(138, 255, 127);
     cursor: pointer;
@@ -59,7 +57,7 @@ body{
     cursor: pointer;
     
 }
-.item-adicionado{
+.item.adicionado{
     border: 1px solid black;
     display: flex;
     flex-flow: row wrap;
@@ -71,7 +69,7 @@ body{
     margin-bottom: 10px;   
     background-color: rgb(166, 247, 172);
 }
-.iconadd{
+.icon.adicionado{
     background-color: rgb(166, 247, 172);
     width: 15%;
     color: rgb(0, 83, 0) ;
@@ -79,8 +77,13 @@ body{
 #icond{
     background-color: rgb(166, 247, 172);
 }
-.tarefadd{
+.tarefa.adicionado{
     background-color: rgb(166, 247, 172);
     width: 70%;
     text-decoration: line-through;
 }
+.del.adicionado{
+    width: 15%;
+    background-color: red;
+    height: 40px;
+    cursor: pointer;}
